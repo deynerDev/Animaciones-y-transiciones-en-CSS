@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.btn-modern{
+    border: none;
+    background-color: rgb(45, 45, 244);
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    transition:all 0.4s;
+}
+.btn-modern:hover{
+    background-color: rgb(0, 0, 100);
+    box-shadow: -4px -2px 10px 0px rgba(0,0,0,0.75);
+    transform: translateY(-5px);
+    color: aquamarine;
+}
